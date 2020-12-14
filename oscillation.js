@@ -6,6 +6,7 @@ let maxD;
 function setup() {
   createCanvas(400, 400, WEBGL);
   ortho(-340, 320, 320, -320, 10, 5000);
+
   ma = atan(1 / sqrt(2));
   maxD = dist(0, 0, 150, 200);
   // frameRate(1);
